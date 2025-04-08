@@ -15,7 +15,7 @@ public class DemoApplication {
 public static void main(String[] args) throws JsonProcessingException {
 		SpringApplication.run(DemoApplication.class, args);
 
-		// Large nested JSON (truncated for brevity – replace with full JSON from earlier)
+
 		String jsonString = """
   [
   {

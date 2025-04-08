@@ -3,7 +3,7 @@ package com.example.demo;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonIgnoreProperties(ignoreUnknown = true) // GEEN IDEE ?? ZAT IN VOORBEELD
 public class model {
     @JsonProperty("id")
     private long id;
@@ -61,7 +61,7 @@ public class model {
         this.language = language;
     }
 
-    @Override
+    @Override // NIET PERSEE NODIG ? WAS VOOR PRINTING TEST..
     public String toString() {
         return "UserSummary{" +
                 "id=" + id +
