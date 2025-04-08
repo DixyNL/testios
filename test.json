@@ -1,0 +1,59 @@
+{
+  "user": {
+    "id": 12345,
+    "name": {
+      "first": "John",
+      "last": "Doe"
+    },
+    "contact": {
+      "email": "john.doe@example.com",
+      "phones": [
+        {
+          "type": "mobile",
+          "number": "123-456-7890"
+        },
+        {
+          "type": "home",
+          "number": "555-123-4567"
+        }
+      ]
+    },
+    "address": {
+      "billing": {
+        "street": "123 Main St",
+        "city": "Metropolis",
+        "postalCode": "12345",
+        "country": {
+          "name": "USA",
+          "code": "US"
+        }
+      },
+      "shipping": {
+        "street": "456 Side St",
+        "city": "Gotham",
+        "postalCode": "67890",
+        "country": {
+          "name": "USA",
+          "code": "US"
+        }
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": {
+          "enabled": true,
+          "sound": "default"
+        }
+      }
+    },
+    "metadata": {
+      "createdAt": "2023-12-01T12:00:00Z",
+      "lastLogin": "2024-04-01T09:30:00Z",
+      "accountType": "premium"
+    }
+  }
+}
